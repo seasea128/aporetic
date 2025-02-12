@@ -277,9 +277,6 @@ cv58 = 2    # x straight with top left serif
 cv59 = 17   # y with open top, flat terminal hook, and top left serif
 cv60 = 4    # z straight with top left serif
 
-[buildPlans.aporetic-serif-mono.variants.italic]
-cv54 = 1    # t with crossbar and upwardly bent hook
-
 [buildPlans.aporetic-serif-mono.weights.regular]
 shape = 400
 menu  = 400
@@ -322,7 +319,7 @@ inherits = "buildPlans.aporetic-serif-mono"
 
 [buildPlans.aporetic-serif.variants.design]
 cv19 = 3    # I cap with short serifs
-cv48 = 2    # m with top left serif and normal middle leg
+cv48 = 6    # m with top left serif, normal middle leg, and bottom right tail
 VSAL = 5    # @ traditional four-fold style
 VSAO = 3    # % with two circles and continuous diagonal line
 
