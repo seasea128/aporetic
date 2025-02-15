@@ -34,6 +34,20 @@ git clone --depth 1 https://github.com/protesilaos/aporetic
 
 Then move the font files/directories where they need to be.
 
+### Install with Guix
+
+Get the latest version with this command:
+
+```sh
+guix install font-aporetic
+```
+
+Or a specific version with something like:
+
+```sh
+guix install font-aporetic@1.1.0
+```
+
 ## Build information
 
 _Aporetic_ is configured in accordance with the documentation of the upstream project. This practically means that (i) [we clone the official repo](https://github.com/be5invis/iosevka), (ii) define our `private-build-plans.toml` at its root, (iii) install the `npm` dependencies, and (iv) build the `.ttf` files with something like the following for each variant (run from the root of the project):
