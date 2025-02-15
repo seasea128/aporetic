@@ -2,7 +2,7 @@
 
 [ _Aporetic_ is the successor to my _Iosevka Comfy_, mainly because "Iosevka" is a reserved name, but also to simplify the overall project: <https://github.com/protesilaos/iosevka-comfy>. ]
 
-Customised build of the [Iosevka typeface](https://github.com/be5invis/Iosevka), with a consistent rounded style and overrides for almost all individual glyphs in both roman (upright) and italic (slanted) variants.
+Customised build of the [Iosevka typeface](https://github.com/be5invis/Iosevka), with a consistent rounded style and overrides for almost all individual glyphs in both upright (roman) and slanted (italic) variants.
 
 + Git repository: <https://github.com/protesilaos/aporetic>.
 + Sample pictures: <https://protesilaos.com/emacs/aporetic-fonts-pictures>
@@ -12,9 +12,9 @@ Customised build of the [Iosevka typeface](https://github.com/be5invis/Iosevka),
 
 _Aporetic_ optimises for inter-glyph and inter-style consistency within the overarching constraint of usability at small point sizes. The shapes are generally round and are picked systematically to both impose a predictable rhythm and keep all characters distinct from each other.
 
-Roman and italic styles are made to look more consistent and less exaggerated than the default upstream Iosevka while retaining their unique qualities. Unlike the default Iosevka style, the upright glyphs do not have a mixture of straight/blocky and curved or serified characters (special exceptions notwithstanding). While the italics do not have calligraphic tendencies that greatly contrast with their counterparts. The differences within each style set and between the styles themselves are more nuanced and thus minimalist. The intent is to make everything feel part of the same predictable aesthetic. Distinctions are drawn on the premise of contributing to the demands of the design in light of usability, without ever calling attention to themselves (as opposed to sporadic calligraphic glyphs amid an otherwise austere presentation which seem to say "look how pretty I am!").
+Upright and slanted styles are made to look more consistent and less exaggerated than the default upstream Iosevka while retaining their unique qualities. Unlike the default Iosevka style, the upright glyphs do not have a mixture of straight/blocky and curved or serified characters (special exceptions notwithstanding). While the italics do not have calligraphic tendencies that greatly contrast with their counterparts. The differences within each style set and between the styles themselves are more nuanced and thus minimalist. The intent is to make everything feel part of the same predictable aesthetic. Distinctions are drawn on the premise of contributing to the demands of the design in light of usability, without ever calling attention to themselves (as opposed to sporadic calligraphic glyphs amid an otherwise austere presentation which seem to say "look how pretty I am!").
 
-To achieve consistency between roman and italic styles I remove elements of roundedness in the latter's glyphs to make them look a bit sturdier. Otherwise they would feel more rounded than their roman counterparts given the added slant. I do not want that added implicit emphasis of extra roundedness because the slant is already sufficient: to emphasise the emphasis is the kind of exaggeration that _Aporetic_ strives to eliminate.
+To achieve consistency between upright and slanted styles I remove elements of roundedness in the latter's glyphs to make them look a bit sturdier. Otherwise they would feel more rounded than their upright counterparts given the added slant. I do not want that added implicit emphasis of extra roundedness because the slant is already sufficient: to emphasise the emphasis is the kind of exaggeration that _Aporetic_ strives to eliminate.
 
 ## Installation instructions
 
