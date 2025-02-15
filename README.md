@@ -56,6 +56,33 @@ Use the following command:
 nix-shell -p aporetic
 ```
 
+### Install on Arch Linux (AUR helper or manual PKGBUILD)
+
+Use your preferred Arch User Repository helper, such as `yay` to install `ttf-aporetic`. For example:
+
+```sh
+yay -S ttf-aporetic
+```
+
+If you do not have an AUR helper set up, you can still reuse the `PKGBUILD` file available therein. Do the following:
+
+```sh
+# Keep a directory for all your AUR package builds
+mkdir aur-builds
+
+# Switch to that directory
+cd aur-builds
+
+# Clone the AUR package build file
+git clone https://aur.archlinux.org/ttf-aporetic.git
+
+# Switch into the cloned repository
+cd ttf-aporetic
+
+# Build and install the package
+makepkg -si
+```
+
 ## Build information
 
 _Aporetic_ is configured in accordance with the documentation of the upstream project. This practically means that (i) [we clone the official repo](https://github.com/be5invis/iosevka), (ii) define our `private-build-plans.toml` at its root, (iii) install the `npm` dependencies, and (iv) build the `.ttf` files with something like the following for each variant (run from the root of the project):
