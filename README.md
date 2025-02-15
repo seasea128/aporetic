@@ -16,7 +16,11 @@ Roman and italic styles are made to look more consistent and less exaggerated th
 
 To achieve consistency between roman and italic styles I remove elements of roundedness in the latter's glyphs to make them look a bit sturdier. Otherwise they would feel more rounded than their roman counterparts given the added slant. I do not want that added implicit emphasis of extra roundedness because the slant is already sufficient: to emphasise the emphasis is the kind of exaggeration that _Aporetic_ strives to eliminate.
 
-## Install on GNU/Linux
+## Installation instructions
+
+_Please help me fill this in with information about available platforms, such as how to install on Windows or with other package managers_.
+
+### Manual Install on GNU/Linux
 
 Unless you have some exotic system, in which case you know what you are doing, you can install fonts for your local user by copying the `.ttf` files or their directories to `~/.local/share/fonts/`. For system-wide installation, place them in `/usr/share/fonts/`.
 
