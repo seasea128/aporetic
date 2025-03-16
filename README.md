@@ -91,6 +91,16 @@ Use the following command:
 brew install font-aporetic
 ```
 
+### Install on FreeBSD
+
+Use the following command:
+
+```sh
+pkg install aporetic
+```
+
+NOTE: Although actively maintained, this package may occasionally lag behind the official version due to being a collaborative effort involving two volunteers, one who updates the package and another who reviews and commits the changes. As both volunteers have their own schedules, updates may not always happen immediately. For more details about version availability, see the [Aporetic page on FreshPorts](https://www.freshports.org/x11-fonts/aporetic/).
+
 ### Install on Windows
 
 Downloading the fonts using your preferred method. One option is you can click the green "<> Code" button and choose "Download Zip" option to save a zip file of the fonts to your Downloads folder. Click on the zip file in your Downloads folder and choose "Extract All" from the menu bar at the top of the screen (also accessible by right clicking on the zip file and choosing the same option "Extract All"). A dialog box will pop up where you can choose the location of where the extracted files will go, you can leave the location as the default or you can update the folder location. Then click the "Extract" button on the bottom right of the dialog box. A new windows explorer window will load where you can access the files that are now extracted. Go into each subfolder and right click on the ttf files and choose the "Install" option.
