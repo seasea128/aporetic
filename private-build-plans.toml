@@ -3,13 +3,13 @@
 
 [buildPlans.aporetic-sans-mono]
 family = "Aporetic Sans Mono"    # Font menu family name
-spacing = "normal"               # Optional; Values: `normal`, `quasi-proportional`, `quasi-proportional-extension-only`, `term`, `fontconfig-mono`, or `fixed`
+spacing = "fixed"                # Optional; Values: `normal`, `quasi-proportional`, `quasi-proportional-extension-only`, `term`, `fontconfig-mono`, or `fixed`
 serifs = "sans"                  # Optional; Values: `sans` or `slab`
 export-glyph-names = false       # Set this to true for ligature support in Kitty (increased file size)
 
 [buildPlans.aporetic-sans-mono.variants.design]
 cv03 = 3    # 3 with double arc
-cv05 = 5    # 5 with arched middle part and no serifs
+cv05 = 1    # 5 with arched middle part and no serifs
 cv07 = 1    # 7 with straight stem and no serifs
 cv08 = 3    # 8 with asymmetric crossing middle part
 cv10 = 4    # 0 full body with forward slash
@@ -54,24 +54,30 @@ cv60 = 1    # z straight with no serifs
 cv61 = 4    # ß (eszet) cap with flat top and serifs
 cv62 = 25   # ſ (long S) with curly top and bottom bases and flat tails
 cv63 = 38   # ß (eszet) with ligature of long S (cv62) and s, containing terminal tail
-cv67 = 12   # α (greek alpha) rounded with curly tail
-VXAC = 2    # β (greek beta) with no bottom hook
-cv68 = 1    # Γ (greek gamma cap) straight with no serifs
-VXAD = 3    # γ (greek gamma) with asymmetric curly shape
-cv69 = 1    # Δ (greek delta cap) straight with no serifs
-cv70 = 1    # δ (greek delta) with rounded top
-cv71 = 12   # ι (greek iota) with top serif, curly base, and flat tail
-cv72 = 1    # Λ (greek iota) with top serif, curly base, and flat tail
-cv73 = 1    # λ (greek lambda) straight with no serifs
-cv74 = 1    # μ (greek me) with toothed body and no serifs
-VXAE = 1    # ν (greek ne) straight with no serifs
-cv75 = 2    # ξ (greek xe) with flat top
-cv76 = 1    # π (greek pe) straight with top serifs
-cv77 = 6    # τ (greek taf) with top serifs, curly base, and flat tail
-VXAF = 1    # υ (greek ypsilon) straight with no serifs
-VXAG = 2    # φ (greek phe) with open side and no stem
-cv78 = 1    # χ (greek he) straight with no serifs
-VXAH = 3    # ψ (greek pse) straight with no serifs and no stem
+cv64 = 1    # ð (eth) with straight bar
+cv65 = 4    # Þ (thorn cap) asymmetric with no serifs
+cv66 = 1    # þ (thorn) asymmetric with no serifs
+cv67 = 12   # α (greek alpha) earless corner with curly tail
+cv68 = 2    # β (greek beta) with no bottom hook
+cv69 = 1    # Γ (greek gamma cap) straight with no serifs
+cv70 = 3    # γ (greek gamma) with asymmetric curly shape
+cv71 = 1    # Δ (greek delta cap) straight with no serifs
+cv72 = 1    # δ (greek delta) with rounded top
+VXAA = 1    # η (greek heta) with no serifs
+cv73 = 1    # θ (greek theta) wide with oval shape
+cv74 = 8    # ι (greek iota) with top serif, curly base, and flat tail
+VXAB = 1    # κ (greek kappa) straight
+cv75 = 1    # Λ (greek lambda cap) straight
+cv76 = 2    # λ (greek lambda) straight with flat top
+cv77 = 8    # μ (greek me) toothless with rounded corner and no serifs
+cv78 = 1    # ν (greek ne) straight with no serifs
+cv79 = 2    # ξ (greek xe) with flat top
+cv80 = 1    # π (greek pe) straight with extended flat top
+cv81 = 4    # τ (greek taf) with top serifs, curly base, and flat tail
+cv82 = 1    # υ (greek ypsilon) straight with no serifs
+cv83 = 2    # φ (greek phe) with open side and no stem
+cv84 = 1    # χ (greek he) straight with no serifs
+cv85 = 3    # ψ (greek pse) straight with no serifs and no stem
 VDAA = 2    # square dots over i and j
 VDAB = 2    # square dots in diacritics like ä
 VDAC = 2    # square dots in punctuation marks
@@ -88,13 +94,14 @@ VSAI = 1    # « straight
 VSAJ = 1    # # column straight
 VSAK = 2    # & et open top
 VSAL = 2    # @ three-fold, tall height
-VSAM = 2    # $ strike through
-VSAN = 2    # ¢ strike through
+VSAM = 3    # $ strike through
+VSAN = 3    # ¢ strike through
 VSAO = 1    # % percent dots
 VSAP = 2    # | bar force upright
 VSAQ = 1    # ? smooth
-VLAA = 2    # ≥ slanted bottom lines
-VLAB = 2    # ≠ slightly slanted bar
+VSAS = 8    # micro sign same as cv77
+VLAA = 1    # ≥ greater or equal sign with straight bottom lines
+VLAB = 2    # ≠ not equal sign with slightly slanted bar
 VLAC = 1    # equality ligation with notch in the middle
 VLAD = 1    # hyphen minus ligation with notch in the middle
 VLAE = 1    # plus plus ligation with notch in the middle
@@ -103,16 +110,16 @@ VLAG = 1    # bar in single arrow ligation with notch in the middle
 
 [buildPlans.aporetic-sans-mono.variants.upright]
 cv36 = 4    # a double storey with a toothless corner
-cv37 = 4    # b rounded
-cv39 = 7    # d rounded
+cv37 = 6    # b toothless corner and with no serifs
+cv39 = 7    # d toothless corner and with no serifs
 cv40 = 1    # e straight
 cv41 = 12   # f with serifless bottom at baseline, flat top, and crossbar at the x-height
-cv42 = 9    # g single storey with flat hook and earless cornered top
+cv42 = 11   # g single storey with flat hook and earless cornered top
 cv46 = 6    # k curly with no serifs
 cv48 = 20   # m earless double arch short middle leg
 cv49 = 8    # n earless straight
 cv50 = 4    # p earless with cornered top
-cv51 = 9    # q earless with cornered top
+cv51 = 13   # q earless with cornered top
 cv55 = 8    # u with toothless shape and cornered bottom with no serifs
 cv01 = 3    # 1 with bottom serif and short top serif
 cv02 = 1    # 2 with straight neck and no serifs
@@ -126,7 +133,7 @@ cv37 = 1    # b straight with no serifs
 cv39 = 1    # d straight with no serifs
 cv40 = 2    # e curly
 cv41 = 16   # f with serifless extended bottom, flat top, and crossbar at the x-height
-cv42 = 7    # g single storey flat hook
+cv42 = 8    # g single storey straight top and flat hook
 cv46 = 1    # k straight with no serifs
 cv48 = 8    # m straight short middle leg
 cv49 = 1    # n straight with no serifs
@@ -181,7 +188,7 @@ inherits = "buildPlans.aporetic-sans-mono"
 
 [buildPlans.aporetic-sans.variants.design]
 cv19 = 3    # I cap with short serifs
-VSAL = 5    # @ traditional four-fold style
+VSAL = 6    # @ traditional four-fold style and tall shape
 VSAO = 3    # % with two circles and continuous diagonal line
 
 # The 'm' character has three legs of equal length, instead of a shorter
@@ -228,7 +235,7 @@ css   = "normal"
 
 [buildPlans.aporetic-serif-mono]
 family = "Aporetic Serif Mono"
-spacing = "normal"
+spacing = "fixed"
 serifs = "slab"
 export-glyph-names = false
 
@@ -259,11 +266,11 @@ cv36 = 3    # a double storey with curly tail
 cv37 = 2    # b toothed shape with top left serif
 cv38 = 4    # c with top inward serif
 cv39 = 2    # d toothed shape with top left serif
-cv42 = 8    # g single storey with flat hook and serified top corner
+cv42 = 10   # g single storey with flat hook and serified top corner
 cv43 = 3    # h tailed top serif
 cv44 = 14   # i with top serif and slight curly tail
 cv46 = 7    # k curly with top left serif
-cv47 = 14   # l with top serif and curly tail
+cv47 = 14   # l with top serif, curly base, and flat tail
 cv48 = 13   # m with top left serif, tailed bottom right corner, and short middle leg
 cv49 = 6    # n with top left serif and tailed bottom right corner
 cv50 = 2    # p straight with top left serif
@@ -320,7 +327,7 @@ inherits = "buildPlans.aporetic-serif-mono"
 [buildPlans.aporetic-serif.variants.design]
 cv19 = 3    # I cap with short serifs
 cv48 = 6    # m with top left serif, normal middle leg, and bottom right tail
-VSAL = 5    # @ traditional four-fold style
+VSAL = 6    # @ traditional four-fold style and tall shape
 VSAO = 3    # % with two circles and continuous diagonal line
 
 [buildPlans.aporetic-serif.weights.regular]

@@ -119,6 +119,6 @@ To build all the _Aporetic_ fonts at once, use this:
 for variant in aporetic{-sans,-serif}{,-mono} ; do npm run build -- ttf::$variant ; done
 ```
 
-The last update to _Aporetic_ was done on 2025-02-12 using upstream commit `7b39833` (post `v32.5.0`).
+The last update to _Aporetic_ was done on 2025-04-27 using upstream commit `8c63218` (post `v33.2.2`).
 
 Each font file is provided as-is in the hope that it may prove useful, but is otherwise intended only for my private use. Concretely, this means that I will only make changes to the fonts if they fix/improve some style, but I will not accommodate other use-cases (e.g. support the Kitty terminal).
