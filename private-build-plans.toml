@@ -173,6 +173,17 @@ shape = 525
 menu  = 5
 css   = "normal"
 
+# Aporetic Sans Mono Term
+# -----------------------
+
+[buildPlans.aporetic-sans-mono-term]
+family = "Aporetic Sans Mono Term"    # Font menu family name
+spacing = "term"                # Optional; Values: `normal`, `quasi-proportional`, `quasi-proportional-extension-only`, `term`, `fontconfig-mono`, or `fixed`
+serifs = "sans"                  # Optional; Values: `sans` or `slab`
+export-glyph-names = false       # Set this to true for ligature support in Kitty (increased file size)
+
+[buildPlans.aporetic-sans-mono-term.variants]
+inherits = "buildPlans.aporetic-sans-mono"
 
 # Aporetic Sans
 # -------------
