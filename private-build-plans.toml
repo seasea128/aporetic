@@ -185,6 +185,11 @@ export-glyph-names = false       # Set this to true for ligature support in Kitt
 [buildPlans.aporetic-sans-mono-term.variants]
 inherits = "buildPlans.aporetic-sans-mono"
 
+[buildPlans.aporetic-sans-mono-term.widths.SemiExtended]
+shape = 550
+menu = 6
+css = "semi-expanded"
+
 # Aporetic Sans
 # -------------
 
